@@ -36,11 +36,11 @@ Como vemos en el gráfico, podemos dividir en 3 partes los puertos de red:
 **53 DNS** - Con este servicio se conoce el nombre de la máquina remota. Los usuarios intentan acceder a zonas de transferencia (TCP) para engañar DNS (UDP) o incluso para ocultar el trafico que desde el 53 no es recibido por los firewalls.
 **63 who is ++** - Este servicio te dice el nombre de propietario de domino de segundo nivel.
 **67/68 boot DHCP** - Los firewalls se conectan a las líneas DSL o cable móden para ver cientos de direcciones 255.255.255.255. Estos ordenadores preguntan por la asignación de una dirección de un servidor DHCP.
-**69 TFTP** - Algunos servidores soportan este protocolo en conjunto con BOOTP con la intenciön de descargar código del sistema. Sin embargo, algunas veces se desconfigura algún archivo del sistema como los archivos que guardan las contraseñas. Por lo que también, pueden ser usadas para crear archivos dentro del sistema.
+**69 TFTP** - Algunos servidores soporten este protocolo en conjunto con BOOTP con la intenciön de descargar código del sistema. Sin embargo, algunas veces se desconfigura algún archivo del sistema como los archivos que guardan las contraseñas. Por lo que también, pueden ser usadas para crear archivos dentro del sistema.
 **70 gopher** - Buscador de información.
 **79 finger** - Los usuarios lo usan para averiguar información del usuario, conseguir información impresa en pantalla o colgar el sistema.
 **80 http** - Servidor Web con el que se accede a páginas Web. Con este puerto abierto el usuario se puede conectar con programas chat como el Messenger.
-**88 kerberos** - Es un método seguro de autentificación de respuesta. Siempre que quieras acceder a otro ordenador necesitas una respuesta de autentificación del servidor (AS)
+**88 kerberos** - Es un método seguro de autentificación de respuesta. Siempre que quieras acceder a otro ordenador necesitas una respuesta de autentificación del servidor (AS).
 **107 rtelnet** - Telnet remoto, es decir, con un telnet accedes a otra ordenador a la que se supone que tienes permiso.
 **109 pop2** - Servicio de correo electrónico. Post Office Protocol, versión 2.
 **110 pop3** - Un punto de presencia (pop) es un punto de acceso de Internet. Un pop tiene únicamente un protocolo de Internet (IP). Este servicio proporciona el correo entrante.
@@ -50,7 +50,7 @@ Como vemos en el gráfico, podemos dividir en 3 partes los puertos de red:
 **117 uucp-path** - UUCP Path Service.
 **119 nntp** - Este servicio proporciona grupos de noticias usenet.
 **133 statsrv** - Servicio de estadísticas.
-**137 netbios-ns NETBIOS Name Service (Windows)** - NetBios es un programa que permite a las aplicaciones de diferentes ordenadores comunicarse sin una conexión de área local (LAN)
+**137 netbios-ns NETBIOS Name Service (Windows)** - NetBios es un programa que permite a las aplicaciones de diferentes ordenadores comunicarse sin una conexión de área local (LAN).
 **138 netbios-dgm NETBIOS DatagramServices (Windows)**
 **139 netbios-ssn NETBIOS Session (Windows)**
 **143 imap** - Servicio de protocolo de mensajes de acceso de Internet (Internet Message Access Protocol)
@@ -72,82 +72,82 @@ Como vemos en el gráfico, podemos dividir en 3 partes los puertos de red:
 
 ##### Puertos de juegos mas populares
 
-7777 Unreal, Klingon Honor Guard.
-7778 Unreal Tournament.
-22450 Sin.
-26000 Quake.
-26900 Hexen 2.
-26950 Hexenworld.
-27015 Half-Life, Team Fortress Classic.
-27500 QuakeWorld.
-27910 Quake 2
-28000/08 Starsiege Tribes.
-26900 Hexen II.
-47624 Operation Flash Point.
-1030 Need for Speed 3.
-2346 Rainbow six.
-16638/39 Swat 3.
-2300 Ages of Empires II.
-2350 Ages of Empires conqueror.
-2611 Black and white.
-28910/15 Soldier of fortune.
-6112 Startcraft658.
-2400 Everquest, Age of Empires.
-26214 Dark Reign 2.
-6112 Diablo II.
-666 Doom.
-23077 Tzar.
-531 Counter Strike.
-47624 Battlecom.
-28910 Herectic 2.
-3658 Delta Force 2.
-6112 Warcraft III.
+**7777** - Unreal, Klingon Honor Guard.
+**7778** - Unreal Tournament.
+**22450** - Sin.
+**26000** - Quake.
+**26900** - Hexen 2.
+**26950** - Hexenworld.
+**27015** - Half-Life, Team Fortress Classic.
+**27500** - QuakeWorld.
+**27910** - Quake 2
+**28000/08** - Starsiege Tribes.
+**26900** - Hexen II.
+**47624** - Operation Flash Point.
+**1030** - Need for Speed 3.
+**2346** - Rainbow six.
+**16638/39** - Swat 3.
+**2300** - Ages of Empires II.
+**2350** - Ages of Empires conqueror.
+**2611** - Black and white.
+**28910/15** - Soldier of fortune.
+**6112** - Startcraft658.
+**2400** - Everquest, Age of Empires.
+**26214** - Dark Reign 2.
+**6112** - Diablo II.
+**666** - Doom.
+**23077** - Tzar.
+**531** - Counter Strike.
+**47624** - Battlecom.
+**28910** - Herectic 2.
+**3658** - Delta Force 2.
+**6112** - Warcraft III.
 
 ##### Puerto usados por Troyanos
 
-21 Blade Runner, Doly Trojan, Fore, Invisible FTP, WebEx, WinCrash.
-23 Tiny Telnet Server.
-25 Antigen, Email Password Sender, Haebu Coceda, Shtrilitz Stealth.
-80 Executor.
-456 Hackers Paradise.
-555 ni-Kiler, Phase Zero, Stealth Spy.
-666 Satans Backdoor.
-1001 Silencer, WebEx.
-1011 Doly Troyan.
-1170 Psyber Stream Server, Voice.
-1234 Ultors Trojan.
-1245 VooDoo Doll.
-1492 FTP99CMP.
-1600 Shivka-Burka.
-1807 SpySender.
-1981 Shockrave.
-1999 BackDoor.
-2001 Trojan Cow.
-2023 Ripper.
-2115 Bugs.
-2140 Deep Throat, The Invasor.
-2801 Phineas Phucker.
-3024 WinCrash.
-3129 Masters Paradise.
-3150 Deep Thorat, The Invasor.
-3700 Portal of Doom.
-4092 WinCrash.
-4590 ICQTrojan.
-5321 Firehotcker.
-5400 Blade Runner.
-5569 Robo-Hack.
-5742 WinCrash.
-6670 DeepThroat.
-6969 GateCrasher, Priority.
-7000 Remote Grab.
-7300 NetMonitor.
-7301 NetMonitor.
-7306 NetMonitor.
-7307 NetMonitor.
-7308 NetMonitor.
-7789 ICKiller.
-9872 Portal of Doom.
-9873 Portal of Doom.
-9874 Portal of Doom.
-9875 Portal of Doom.
-9989 iNI-Killer.
+**21** - Blade Runner, Doly Trojan, Fore, Invisible FTP, WebEx, WinCrash.
+**23** - Tiny Telnet Server.
+**25** - Antigen, Email Password Sender, Haebu Coceda, Shtrilitz Stealth.
+**80** - Executor.
+**456** - Hackers Paradise.
+**555** - ni-Kiler, Phase Zero, Stealth Spy.
+**666** - Satans Backdoor.
+**1001** - Silencer, WebEx.
+**1011** - Doly Troyan.
+**1170** - Psyber Stream Server, Voice.
+**1234** - Ultors Trojan.
+**1245** - VooDoo Doll.
+**1492** - FTP99CMP.
+**1600** - Shivka-Burka.
+**1807** - SpySender.
+**1981** - Shockrave.
+**1999** - BackDoor.
+**2001** - Trojan Cow.
+**2023** - Ripper.
+**2115** - Bugs.
+**2140** - Deep Throat, The Invasor.
+**2801** - Phineas Phucker.
+**3024** - WinCrash.
+**3129** - Masters Paradise.
+**3150** - Deep Thorat, The Invasor.
+**3700** - Portal of Doom.
+**4092** - WinCrash.
+**4590** - ICQTrojan.
+**5321** - Firehotcker.
+**5400** - Blade Runner.
+**5569** - Robo-Hack.
+**5742** - WinCrash.
+**6670** - DeepThroat.
+**6969** - GateCrasher, Priority.
+**7000** - Remote Grab.
+**7300** - NetMonitor.
+**7301** - NetMonitor.
+**7306** - NetMonitor.
+**7307** - NetMonitor.
+**7308** - NetMonitor.
+**7789** - ICKiller.
+**9872** -Portal of Doom.
+**9873** - Portal of Doom.
+**9874** - Portal of Doom.
+**9875** - Portal of Doom.
+**9989** - iNI-Killer.
